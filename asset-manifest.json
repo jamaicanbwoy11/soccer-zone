@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/soccer-zone/static/css/main.15155b9f.chunk.css",
+    "main.js": "/soccer-zone/static/js/main.7ad71836.chunk.js",
+    "main.js.map": "/soccer-zone/static/js/main.7ad71836.chunk.js.map",
+    "runtime-main.js": "/soccer-zone/static/js/runtime-main.1104df82.js",
+    "runtime-main.js.map": "/soccer-zone/static/js/runtime-main.1104df82.js.map",
+    "static/css/2.84df2bc0.chunk.css": "/soccer-zone/static/css/2.84df2bc0.chunk.css",
+    "static/js/2.49845966.chunk.js": "/soccer-zone/static/js/2.49845966.chunk.js",
+    "static/js/2.49845966.chunk.js.map": "/soccer-zone/static/js/2.49845966.chunk.js.map",
+    "static/js/3.0a9431d5.chunk.js": "/soccer-zone/static/js/3.0a9431d5.chunk.js",
+    "static/js/3.0a9431d5.chunk.js.map": "/soccer-zone/static/js/3.0a9431d5.chunk.js.map",
+    "index.html": "/soccer-zone/index.html",
+    "static/css/2.84df2bc0.chunk.css.map": "/soccer-zone/static/css/2.84df2bc0.chunk.css.map",
+    "static/css/main.15155b9f.chunk.css.map": "/soccer-zone/static/css/main.15155b9f.chunk.css.map",
+    "static/js/2.49845966.chunk.js.LICENSE.txt": "/soccer-zone/static/js/2.49845966.chunk.js.LICENSE.txt",
+    "static/media/1b.daa987a3.jpg": "/soccer-zone/static/media/1b.daa987a3.jpg",
+    "static/media/Kyrie2.c38f4d9f.jpg": "/soccer-zone/static/media/Kyrie2.c38f4d9f.jpg",
+    "static/media/LEBRON.ab53265f.jpg": "/soccer-zone/static/media/LEBRON.ab53265f.jpg",
+    "static/media/NBA2.73449947.jpg": "/soccer-zone/static/media/NBA2.73449947.jpg",
+    "static/media/WESTBROOK2.74581005.jpg": "/soccer-zone/static/media/WESTBROOK2.74581005.jpg",
+    "static/media/freak-baner.3dba7e2b.jpg": "/soccer-zone/static/media/freak-baner.3dba7e2b.jpg",
+    "static/media/koszykarze_1.5d548a2e.png": "/soccer-zone/static/media/koszykarze_1.5d548a2e.png",
+    "static/media/koszykarze_10.77f03f16.png": "/soccer-zone/static/media/koszykarze_10.77f03f16.png",
+    "static/media/koszykarze_11.6f230d14.png": "/soccer-zone/static/media/koszykarze_11.6f230d14.png",
+    "static/media/koszykarze_2.ececf264.png": "/soccer-zone/static/media/koszykarze_2.ececf264.png",
+    "static/media/koszykarze_3.e08fb08f.png": "/soccer-zone/static/media/koszykarze_3.e08fb08f.png",
+    "static/media/koszykarze_4.73c1aa70.png": "/soccer-zone/static/media/koszykarze_4.73c1aa70.png",
+    "static/media/koszykarze_5.ae732afb.png": "/soccer-zone/static/media/koszykarze_5.ae732afb.png",
+    "static/media/koszykarze_6.3b0d2c89.png": "/soccer-zone/static/media/koszykarze_6.3b0d2c89.png",
+    "static/media/koszykarze_8.63bfa27b.png": "/soccer-zone/static/media/koszykarze_8.63bfa27b.png",
+    "static/media/koszykarze_9.a9b0db66.png": "/soccer-zone/static/media/koszykarze_9.a9b0db66.png",
+    "static/media/lebron18.8ac9adcf.jpg": "/soccer-zone/static/media/lebron18.8ac9adcf.jpg",
+    "static/media/slick-theme.css": "/soccer-zone/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1104df82.js",
+    "static/css/2.84df2bc0.chunk.css",
+    "static/js/2.49845966.chunk.js",
+    "static/css/main.15155b9f.chunk.css",
+    "static/js/main.7ad71836.chunk.js"
+  ]
+}
