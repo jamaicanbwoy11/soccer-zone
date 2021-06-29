@@ -1,0 +1,25 @@
+.app{
+  
+    // background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20191212/pngtree-dramatic-night-sky-with-palm-and-sea-image_323834.jpg");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // width:100%;
+    // height:1000px;
+    &__backToTop{
+        position: fixed;
+        bottom: 20px;
+        right:20px;
+        cursor: pointer;
+
+        background-color: orange;
+        animation: backToTopUp 0.7s linear 0s 1;
+    }
+}
+@keyframes backToTopUp {
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

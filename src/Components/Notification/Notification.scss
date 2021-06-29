@@ -1,0 +1,147 @@
+.notification{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 99999;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    &__content{
+      color:red;
+      font-size:3rem;
+      font-weight: bolder;
+      // background-color: #fff;
+      background: #02AAB0;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #9CDC78, #83DC9E);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #9CDC78, #83DC9E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      padding:50px;
+      width: 300px;
+      height: 300px;
+      border-radius: 20px;
+      position: relative;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction: column;
+      & > .MuiSvgIcon-root{
+        font-size:5rem;
+        color:#ffffeb;
+
+
+      }
+      &__point{
+   
+        span{
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+        
+        }
+        .gray{
+          background-color: rgb(207, 205, 205);
+
+          position: absolute;
+          top:20px;
+          right:40px;
+          z-index: 99;
+          animation: changeColorGray 1s linear 0s infinite;
+          transition: all .5s;
+        }
+        .white{
+          background-color: #fff;
+
+          position: absolute;
+          top:20px;
+          right:20px;
+          z-index: 99;  
+          transition: all .5s;
+          animation: changeColorWhite 1s linear 0s infinite;
+        }
+      }
+      img{
+        width: 100px;
+        height: 100px;
+      }
+      h1{
+        color:rgb(224, 224, 224);
+        font-size:2rem;
+        letter-spacing: 8px;
+        text-align: center;
+
+        margin:20px 0;
+      }
+      h2{
+        color:rgb(70, 70, 70);
+        font-size:1rem;
+        text-align: center;
+
+      }
+    }
+
+}
+@media screen and (max-width:420px) {
+  .notification{
+    &__content{
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+@media screen and (max-width:315px) {
+  .notification{
+    &__content{
+      width: 150px;
+      height: 150px;
+      & > .MuiSvgIcon-root{
+        font-size:4rem;
+        color:#ffffeb;
+
+
+      } 
+      h1{
+        color:rgb(224, 224, 224);
+        font-size:1.2rem;
+        letter-spacing: 8px;
+        text-align: center;
+
+        // margin:20px 0;
+      }
+      h2{
+        color:rgb(70, 70, 70);
+        font-size:1rem;
+        text-align: center;
+
+      }
+    }
+  }
+}
+@keyframes changeColorGray {
+  0%{
+    position: absolute;
+    right:20px;
+    background-color: #fff;
+ 
+  }
+  100%{
+    position: absolute;
+    right:40px;
+    background-color: rgb(207, 205, 205);
+  }
+}
+@keyframes changeColorWhite {
+  0%{
+    position: absolute;
+    right:40px;
+    background-color: rgb(207, 205, 205);
+  }
+  100%{
+    position: absolute;
+    right:20px;
+    background-color: #fff;
+  }
+}

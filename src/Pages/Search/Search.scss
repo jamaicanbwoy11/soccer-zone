@@ -1,0 +1,114 @@
+.search{
+    margin-top:40px;
+    &__select{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        margin-bottom: 40px;
+        select{
+            padding:5px 10px;
+            cursor: pointer;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border:1px solid rgb(206, 206, 206);
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    &__title{
+        font-size: 1.1rem;
+        margin:20px;
+        &__found{
+            font-weight: bolder;
+            margin-left:20px;
+        }
+    }
+    &__items{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        &__item{
+            margin:0 5px 5px 0;
+            width:250px;
+            &__image{
+                width:250px;
+                height: auto;
+                cursor: pointer;
+                position: relative;
+                &:hover::after{
+                    opacity: 1;
+                    visibility: visible;  
+                    animation: quickView 0.3s linear 0s 1;
+                }
+                &::after{
+                    content: 'QUICK VIEW';
+                    background-color: rgba(0,0,0,0.6);
+                    color:#fff;
+                    font-weight: bolder;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top:0;
+                    left:0;
+
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
+
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: all .5s;
+              
+                }
+                img{
+                    width:100%;
+                    height:100%;
+                    object-fit: cover;
+                }
+            }
+            &__name{
+                font-size:0.9rem;
+
+            }
+            &__priceAndPriceDiscount{
+                &__price{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    span{
+                        font-weight: 600;
+                    }
+                    .MuiSvgIcon-root{
+                        color:rgb(158, 158, 158);;
+                    }
+                }
+                &__priceDiscount{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    span{
+                        font-weight: 600;
+                    }
+                    .MuiSvgIcon-root{
+                        color:rgb(158, 158, 158);;
+                    }
+                    del{
+                        font-size:0.9rem;
+                        margin-right:10px;
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes quickView {
+     0%{
+         transform: translateX(-100px);
+     }
+     100%{
+         transform: translateX(0px);
+     }
+}
